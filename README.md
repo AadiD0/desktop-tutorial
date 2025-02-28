@@ -1,5 +1,6 @@
-# Welcome to GitHub Desktop!
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+All the experiments that took place in the Academic Year 2024-2025 in ISC-S101 for B.Tech. CSE in 1st Semester taught by faculty Er. Hrishabh Tripathi reside here.
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+
+
+SEAN
