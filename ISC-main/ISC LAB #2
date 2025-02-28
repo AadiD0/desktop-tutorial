@@ -1,0 +1,36 @@
+Implementation of Basic UNIX Commands -II
+1. Sort the file RED and Display it on the screen
+  sort RED.txt
+2. Sort the file RED and redirect output in another file 
+  sort RED.txt > NEWRED.txt 
+3. Sort the file RED in reverse order and store it in reversed order
+  sort RED.txt -r > REVERSEDRED.txt
+4. Remove Consecutive Dupilcate in Given file 
+  uniq RED.txt
+5. Display the first 10 lines in a File
+  Head -10 RED.txt
+6. Display the last 10 lines in File
+  tail RED.txt
+7. Display the last 3 Lines in a file
+  tail -3 RED.txt
+8. Create a file student with the Fields "Name, Class" and another file called studentMarks with Fields "Roll Number, Mark1, Mark2"
+  echo "Name, Class" > student.txt    // This creates a file named student.txt with the first line containing "Name, Class" .
+  echo "John Doe, 10" >> student      // Append data to student file.
+  echo "Jane Smith, 12" >> student
+  $ cat student           // If we display student file.
+  Name, Class
+  John Doe, 10
+  Jane Smith, 12 
+9a. Display Roll Number and Mark1 of respective file
+    awk {print $1, $2} studentMarks.txt
+9b. Combine these two Files
+    paste Student.txt studentMarks.txt
+9c. To edit Folder use 
+    nano "fileName"
+10. Create a file Fruitfile.txt and put 20 redundant entries including the word apple
+        a. To Search word appple in Fruitfile.txt
+            grep "apple" Fruitfile.txt
+        b. To Count the number of times apple is found in the file
+            grep -c "apple" fruitfile.txt
+        c. To Display the lines which dont contain the word apple 
+            grep -v "apple" fruitfile.txt

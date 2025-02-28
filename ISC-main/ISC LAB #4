@@ -1,0 +1,15 @@
+Creating a script file
+Aim : To create a script file and make it executable.
+  a. Open Terminal on your computer and type .....
+     $vi myscript.sh // $vi fileName.extension
+  b. Enter insert mode to start writing by pressing 'i' key. You should see Insert at the bottom of he screen.
+  c. Write the following terminal scripts :
+     echo "Hello World" // Displays 'Hello World'
+     echo "current date : (date)" // Displays the current date
+     echo "Listing files in current directory "
+     ls // Displays files in current directory 
+  d. Exit insert mode by pressing Esc key.
+  e. To save and quit Vi editor ; press :wq and hit Enter.
+  f. In Order to make the Terminal/Shell script executable we need to give it execute permission by writing :
+     chmod +x myscript.sh  // chmod +x fileName.sh
+     Run the script by : %myscript.sh

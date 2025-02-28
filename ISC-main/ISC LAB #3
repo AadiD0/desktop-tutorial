@@ -1,0 +1,20 @@
+Implementation of Basic UNIX Commands -III
+Aim : To implement UNIX commands as follows 
+  a. Create a file1 and file2 using cat command.
+  b. Concatenate file1 and file2 and redirect the content to a new File.
+  c. Reverse the contents of file1 using tac command.
+  d. Create multiple empty files named file3 , file4 , file5.
+  e. Create a file named file6 using Vi command.
+  f. Display detailed listing of files and directories in the current directory.
+  g. List all files including hidden files.
+
+Procedure :
+// Code which you need to write on your terminal is after $
+// Eg. $cat > file1.txt ....... so you ned to write only cat > file1.txt
+  a. Use $cat > file1.txt and $cat > file2.txt to create them
+  b. Use $catfile1.txt file2.txt > all.txt to concatenate .
+  c. use $tac file1.txt to display in reverse order
+  d. Use $touch command to create multiple empty files.
+  e. Use $ Vi command   // Add Vi editor code here.
+  f. Use $ls-l to list in a detailed way.
+  g. Use $ls-a to list all files .

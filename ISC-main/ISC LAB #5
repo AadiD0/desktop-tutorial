@@ -1,0 +1,21 @@
+Internal Commands : 
+  a. DIR - Lists the files and directories in our current working directory.
+  b. copy - This command creates a duplicate copy of a file.
+     Eg. copy example.txt example_copy.txt
+  c. cd - changes the directory
+  d. cls - clears the screen
+  e. echo - Displays a message  
+     Eg. echo Hello
+  f. mkdir
+  g. ren (or rename) - Renames a File
+     Eg. ren oldFile.txt newFile.txt
+  h. copycon - creates a text fileor batch 
+  i. Opening a file - Type fileName.txt   // Similar to cat command
+
+Examples of External Commands :
+  a. chkdsk - cheks disc for errors 
+    Eg. chkdsk c:
+  b. roocopy or xcopy - copies files and directories.
+    Eg. xcopy D:\source E:\Destination
+  c. write myfile.txt - Opens Wordpad 
+  d. notepad myfile.txt - Opens Notepad

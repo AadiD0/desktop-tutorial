@@ -1,0 +1,39 @@
+//Implementation of Basic UNIX Commands -I  
+0. Shortcut to open ubuntu terminal
+    Ctrl + Alt + T
+1. To Create Your own directory
+    mkdir directoryName
+    Eg. mkdir mydir
+2. To Remove existing directory
+    rmdir directoryNmae
+3. To Cange working directory
+    cd requiredDirectory
+    Eg. cd mydir
+4. To Display the current working directory path (pwd stands for print working directory)
+    pwd
+5. To Display all the contents in the present directory
+    ls
+6. To Display all files starting with letter 'b'
+    ls b*
+7. To Create an empty file and add contents in it 
+    cat > fileName.txt
+8.  To append data in an existing file
+    cat >> fileNmae.txt
+9. Create a file RED.txt and enter names of 10 students
+    cat>RED.txt
+    (enter required entries)
+    ctrl+d // To save 
+10. Append 5 more students names in this list
+    cat>>RED.txt
+    (add required entries)
+    ctrl+d
+11. Display the content of file
+    cat RED.txt
+12. Copy the content of RED.txt into BLACK.txt
+    cp RED.txt BLACK.txt
+13. Rename the File BLACK into WHITE
+    mv BLACK.txt WHITE.txt
+14. Delete the File WHITE.txt
+    rm WHITE.txt
+15. TO clear all inputted commands from terminal 
+    clear
