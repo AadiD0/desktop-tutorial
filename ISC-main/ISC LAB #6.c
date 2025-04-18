@@ -1,36 +1,25 @@
 // Question 1. Write a program to find greater number among three numbers.
 // Ans 1.
 #include <stdio.h>
+
 void main() {
     int a, b, c;
+
+    // Input three numbers
     printf("Enter three numbers: ");
     scanf("%d %d %d", &a, &b, &c);
 
-    if (a == b && a == c) {
-        printf("All are equal");
+    // Logic to find the greatest
+    if (a >= b && a >= c) {
+        printf("Greatest number is: %d\n", a);
+    } else if (b >= a && b >= c) {
+        printf("Greatest number is: %d\n", b);
+    } else {
+        printf("Greatest number is: %d\n", c);
     }
-    
-    else if (a == b && a > c) {
-        printf("%d and %d are greatest", a, b);
-    }
-    else if (b == c && b > a) {
-        printf("%d and %d are greatest", b, c);
-    }
-    else if (c == a && c > b) {
-        printf("%d and %d are greatest", c, a);
-    }
-    
-    else if (a > b && a > c) {
-        printf("%d is greatest", a);
-    }
-    else if (b > a && b > c) {
-        printf("%d is greatest", b);
-    }
-    else {
-        printf("%d is greatest", c);
-    }
-}
 
+    return 0;
+}
 
 // Question 2. Write a program to find whether the given year is a leap year or no.
 // Ans 2.
