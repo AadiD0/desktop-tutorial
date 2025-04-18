@@ -20,7 +20,14 @@ Implementation of Basic UNIX Commands -II
   $ cat student           // If we display student file.
   Name, Class
   John Doe, 10
-  Jane Smith, 12 
+  Jane Smith, 12
+  echo "Roll Number, Mark1, Mark2" > fields.txt    
+  echo "001, 45, 66>> fields  
+  echo "002, 56, 23>> fields
+  $ cat fields           
+  Roll Number, Mark1, Mark2
+  001, 45, 66
+  002, 56, 23
 9a. Display Roll Number and Mark1 of respective file
     awk {print $1, $2} studentMarks.txt
 9b. Combine these two Files
@@ -28,7 +35,7 @@ Implementation of Basic UNIX Commands -II
 9c. To edit Folder use 
     nano "fileName"
 10. Create a file Fruitfile.txt and put 20 redundant entries including the word apple
-        a. To Search word appple in Fruitfile.txt
+        a. To Search word apple in Fruitfile.txt
             grep "apple" Fruitfile.txt
         b. To Count the number of times apple is found in the file
             grep -c "apple" fruitfile.txt
