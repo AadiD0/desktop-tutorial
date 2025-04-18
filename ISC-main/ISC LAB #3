@@ -9,12 +9,25 @@ Aim : To implement UNIX commands as follows
   g. List all files including hidden files.
 
 Procedure :
-// Code which you need to write on your terminal is after $
-// Eg. $cat > file1.txt ....... so you ned to write only cat > file1.txt
-  a. Use $cat > file1.txt and $cat > file2.txt to create them
-  b. Use $catfile1.txt file2.txt > all.txt to concatenate .
-  c. use $tac file1.txt to display in reverse order
-  d. Use $touch command to create multiple empty files.
-  e. Use $ Vi command   // Add Vi editor code here.
-  f. Use $ls-l to list in a detailed way.
-  g. Use $ls-a to list all files .
+  a. Use 
+  cat > file1.txt
+  cat > file2.txt
+  to create them
+  b. Use 
+  catfile1.txt file2.txt > all.txt
+  to concatenate .
+  c. use
+  tac file1.txt
+  to display in reverse order
+  d. Use 
+  touch file3 file4 file5
+  command to create multiple empty files.
+  e. Use 
+  Vi command
+  Add Vi editor code here.
+  f. Use 
+  ls-l 
+  to list in a detailed way.
+  g. Use 
+  $ls-a 
+  to list all files .
