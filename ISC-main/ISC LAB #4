@@ -1,7 +1,7 @@
 Creating a script file
 Aim : To create a script file and make it executable.
   a. Open Terminal on your computer and type .....
-     $vi myscript.sh // $vi fileName.extension
+     $vi myscript.c // $vi fileName.extension
   b. Enter insert mode to start writing by pressing 'i' key. You should see Insert at the bottom of he screen.
   c. Write the following terminal scripts :
      echo "Hello World" // Displays 'Hello World'
