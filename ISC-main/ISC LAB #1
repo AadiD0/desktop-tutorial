@@ -6,7 +6,7 @@
     Eg. mkdir mydir
 2. To Remove existing directory
     rmdir directoryNmae
-3. To Cange working directory
+3. To Change working directory
     cd requiredDirectory
     Eg. cd mydir
 4. To Display the current working directory path (pwd stands for print working directory)
