@@ -4,18 +4,18 @@
 
 void main() {
     int a, b, c;
-
-    // Input three numbers
-    printf("Enter three numbers: ");
     scanf("%d %d %d", &a, &b, &c);
 
-    // Logic to find the greatest
-    if (a >= b && a >= c) {
-        printf("Greatest number is: %d\n", a);
-    } else if (b >= a && b >= c) {
-        printf("Greatest number is: %d\n", b);
+    if (a >= b) {
+        if (a >= c)
+            printf("%d\n", a);
+        else
+            printf("%d\n", c);
     } else {
-        printf("Greatest number is: %d\n", c);
+        if (b >= c)
+            printf("%d\n", b);
+        else
+            printf("%d\n", c);
     }
 
     return 0;
