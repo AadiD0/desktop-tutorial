@@ -12,4 +12,4 @@ Aim : To create a script file and make it executable.
   e. To save and quit Vi editor ; press :wq and hit Enter.
   f. In Order to make the Terminal/Shell script executable we need to give it execute permission by writing :
      gcc myscript.c -o myscript
-     Run the script by : %myscript.sh
+     Run the script by : ./myscript
