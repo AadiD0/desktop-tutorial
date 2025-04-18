@@ -11,5 +11,5 @@ Aim : To create a script file and make it executable.
   d. Exit insert mode by pressing Esc key.
   e. To save and quit Vi editor ; press :wq and hit Enter.
   f. In Order to make the Terminal/Shell script executable we need to give it execute permission by writing :
-     chmod +x myscript.sh  // chmod +x fileName.sh
+     gcc program.c -o program
      Run the script by : %myscript.sh
