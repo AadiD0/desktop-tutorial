@@ -24,10 +24,14 @@ Procedure :
   command to create multiple empty files.
   e. Use 
   Vi command
+  "i"
   Add Vi editor code here.
+  "esc"
+  :wq
+  "enter"
   f. Use 
   ls-l 
   to list in a detailed way.
   g. Use 
-  $ls-a 
+  ls-a 
   to list all files .
